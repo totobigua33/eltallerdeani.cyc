@@ -1,0 +1,126 @@
+.cards {
+  display: flex;
+
+  .card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    img {
+      max-width: 100%;
+      padding-top: 2rem;
+    }
+
+    h4 {
+      font-family: "Varela Round", sans-serif;
+      font-size: 1.4rem;
+    }
+
+    p {
+      font-family: "Varela Round", sans-serif;
+      width: 65%;
+      text-align: center;
+    }
+
+    a {
+      font-family: "Varela Round", sans-serif;
+      font-size: 1rem;
+      background-color: pink;
+      padding: 0.5rem;
+      color: black;
+      text-decoration: none;
+    }
+  }
+}
+
+.titles2 {
+  text-align: center;
+  padding-inline: 8rem;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  gap: 4rem;
+
+  h4 {
+    font-family: "Varela Round", sans-serif;
+    background-color: pink;
+    font-weight: 400;
+    margin-top: 5rem;
+    padding: 2rem 2rem;
+    font-size: 40px;
+    border-radius: 10px;
+    box-shadow: grey 4px 3px 4px 1px;
+  }
+
+  h2 {
+    font-family: "Varela Round", sans-serif;
+    font-size: 4rem;
+    padding: 2rem;
+  }
+
+  p {
+    font-family: "Varela Round", sans-serif;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+}
+
+.cards2 {
+  display: flex;
+  padding: 2rem;
+
+  .card2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  img {
+    max-width: 100%;
+    padding-top: 2rem;
+  }
+
+  h4 {
+    font-family: "Varela Round", sans-serif;
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-family: "Varela Round", sans-serif;
+    width: 65%;
+    text-align: center;
+  }
+
+  a {
+    font-family: "Varela Round", sans-serif;
+    font-size: 1rem;
+    background-color: pink;
+    padding: 0.5rem;
+    color: black;
+    text-decoration: none;
+  }
+  
+}
+
+.inicio__cards {
+  font-family: "Varela Round", sans-serif;
+  background-color: pink;
+  font-weight: 400;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: grey 4px 3px 4px 1px;
+  text-align: center;
+
+  
+  a {
+    text-decoration: none;
+  }
+  
+
+
+}

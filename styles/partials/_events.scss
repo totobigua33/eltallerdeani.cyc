@@ -1,0 +1,52 @@
+.events {
+  padding-top: 0;
+  padding: 6rem;
+
+  .inner {
+    display: flex;
+    padding: 2rem;
+    box-shadow: 8px 4px 8px 2px pink;
+
+    h5 {
+      font-family: "Varela Round", sans-serif;
+      color: black;
+      letter-spacing: 1px;
+      font-weight: 20;
+      font-size: 1.5rem;
+      background-color: pink;
+
+      display: inline-block;
+    }
+
+    h3 {
+      font-family: "Varela Round", sans-serif;
+      color: rgb(0, 0, 0);
+      letter-spacing: 1px;
+      font-weight: 300px;
+      font-size: 1.4rem;
+      padding-top: 1rem;
+    }
+
+    .inner__left {
+      flex: 1;
+      min-width: 0;
+      padding-block: 8rem;
+      padding-left: 2rem;
+      padding-right: 6rem;
+
+      p {
+        font-family: "Varela Round", sans-serif;
+        font-size: 20px;
+        padding-top: 1rem;
+      }
+    }
+
+    .inner__right {
+      flex: 1.3;
+
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}

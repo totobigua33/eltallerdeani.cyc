@@ -1,0 +1,47 @@
+  .grid {
+    padding: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "item1 item2 item3";
+    gap: 2rem;
+  }
+  
+  .grid__item {
+    border-radius: 1rem;
+    background-size: cover;
+    background-position: center center;
+    padding: 1.4rem;
+  }
+  
+  .grid__item h5,
+  .grid__item h4 {
+    color: rgb(0, 0, 0);
+    font-family: "Varela Round", sans-serif;
+    font-weight: 1px;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+  }
+  
+  .grid__item h5 {
+    font-size: 1.3rem;
+  }
+  
+  .grid__item h4 {
+    font-size: 1rem;
+  }
+  
+  .grid__item1 {
+    grid-area: item1;
+    background-image: url("../img/iniciacion.jpg");
+    height: 200px;
+  }
+  
+  .grid__item2 {
+    grid-area: item2;
+    background-image: url("../img/molderia.jpg");
+    height: 200px;
+  }
+  .grid__item3 {
+    grid-area: item3;
+    background-image: url("../img/lenceria.jpg");
+    height: 200px;
+  }

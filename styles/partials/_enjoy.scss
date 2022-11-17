@@ -1,0 +1,33 @@
+.enjoy {
+  padding: 6rem;
+  padding-top: 0;
+}
+
+.titles {
+  text-align: center;
+  padding-inline: 8rem;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+
+  h4 {
+    font-family: "Varela Round", sans-serif;
+    background-color: pink;
+    font-weight: 400;
+    padding: 1rem 1rem;
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: grey 4px 3px 4px 1px;
+  }
+
+  h2 {
+    font-family: "Varela Round", sans-serif;
+    font-size: 3rem;
+  }
+
+  p {
+    font-family: "Varela Round", sans-serif;
+    font-size: 1rem;
+  }
+}
